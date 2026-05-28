@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #1f2937;
+  color: white;
+}
+
+.dashboard-container {
+  padding: 30px;
+}
+
+.dashboard-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.card {
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+}
+
+.card-red {
+  background: #ef4444;
+}
+
+.card-yellow {
+  background: #f59e0b;
+}
+
+.card-green {
+  background: #22c55e;
+}
+
+.chart-box {
+  background: #111827;
+  padding: 20px;
+  border-radius: 10px;
+}
